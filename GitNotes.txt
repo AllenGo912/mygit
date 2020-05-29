@@ -24,4 +24,6 @@ Git learn notes:
 		输入comit id的前几位，即可穿梭版本
 	12.git reflog
 		查看命令历史记录
-	13.
+	13.git diff HEAD -- <file>
+		查看工作区文件和版本库中最新的区别
+	14.
