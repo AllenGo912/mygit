@@ -26,4 +26,12 @@ Git learn notes:
 		查看命令历史记录
 	13.git diff HEAD -- <file>
 		查看工作区文件和版本库中最新的区别
-	14.
+	14.git checkout -- <file>
+		让文件回到最近一次git commit或者git add时的状态
+	15.git reset HEAD <file>
+		把暂存区的修改撤销掉，就是add完文件又修改了，可撤销
+	16.rm <file>
+		本地删除文件
+	17.git rm <file>  git commit -m <message>
+		git删除文件
+	18.
