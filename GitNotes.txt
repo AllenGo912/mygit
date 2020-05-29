@@ -34,4 +34,6 @@ Git learn notes:
 		本地删除文件
 	17.git rm <file>  git commit -m <message>
 		git删除文件
-	18.
+	18.ssh-keygen -t rsa -C "youremail@example.com"
+		创建SSH Key,id_rsa和id_rsa.pub就是SSH Key的密钥对,id_rsa是私钥，id_rsa.pub是公钥
+	19.
