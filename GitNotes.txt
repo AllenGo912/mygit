@@ -44,4 +44,16 @@ Git learn notes:
 		建立一个名为gitee的gitee远程库，仓库名为learngit
 	22.git remote rm <name>
 		删除指定名称的远程库
-	
+	23.git branch dev
+		创建一个dev分支
+	24.git checkout dev(旧)/git switch dev(推荐)
+		切换到分支dev
+	25.git checkout -b dev(旧)/git switch -c dev(推荐)
+		创建并切换到分支dev
+	26.git merge dev
+		合并分支到当前分支
+	27.git branch -d dev
+		删除dev分支
+	28.git log --graph
+		分支合并图
+	29.
