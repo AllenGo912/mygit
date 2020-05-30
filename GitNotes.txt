@@ -36,4 +36,12 @@ Git learn notes:
 		git删除文件
 	18.ssh-keygen -t rsa -C "youremail@example.com"
 		创建SSH Key,id_rsa和id_rsa.pub就是SSH Key的密钥对,id_rsa是私钥，id_rsa.pub是公钥
-	19.
+	19.git remote -v
+		查看远程库信息
+	20.git remote add github git@github.com:<yourname>/learngit.git
+		建立一个名为github的github远程库，仓库名为learngit
+	21.git remote add gitee git@gitee.com:<yourname>/learngit.git
+		建立一个名为gitee的gitee远程库，仓库名为learngit
+	22.git remote rm <name>
+		删除指定名称的远程库
+	
